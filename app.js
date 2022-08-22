@@ -8,24 +8,14 @@ btns.forEach(function (btn) {
     const styles = e.currentTarget.classList;
     if (styles.contains("decrese")) {
       count--;
-
     }
     else if (styles.contains("increase")) {
-      count ++;
+      count++;
     }
-else{
-count = 0;
-}
-
-
-    
+    else {
+      count = 0;
+    }
     value.textContent = count;
   });
 });
-
-
-
-
-
-
 
